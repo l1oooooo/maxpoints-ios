@@ -4,6 +4,8 @@ Native SwiftUI environment for MaxPoints, a card-reward advisor. This initial mi
 
 ## Open and run
 
+The working checkout is `~/Developer/MaxPoints`, outside iCloud-synced Documents. See [verification evidence](docs/VERIFICATION.md).
+
 1. Open `MaxPoints.xcodeproj` in Xcode 26.3.
 2. Select the shared **MaxPoints** scheme and an available iPhone simulator.
 3. Run with Command-R; run tests with Command-U.

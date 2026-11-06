@@ -24,7 +24,7 @@ final class LaunchTests: XCTestCase {
         let root = app.scrollViews["maxpoints.root"]
         root.swipeUp()
         XCTAssertTrue(app.staticTexts["maxpoints.tagline"].isHittable)
-        let attachment = XCTAttachment(screenshot: app.screenshot())
+        let attachment = XCTAttachment(screenshot: XCUIScreen.main.screenshot())
         attachment.name = "Accessibility text - landscape"
         attachment.lifetime = .keepAlways
         add(attachment)
